@@ -14,6 +14,6 @@ document.getElementById("btnQuotes").addEventListener("click", function() {
         const randomQuote = quotes[randomIndex].text;
 
         // Display the random quote in the "quotes" element
-        document.querySelector("#quotes").innerHTML = `<h4>"${randomQuote}"</h4>`;
+        document.querySelector("#quotes").innerHTML = `<h5>"${randomQuote}"</h5>`;
     });
 });
