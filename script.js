@@ -6,7 +6,9 @@
 //     })
 // })
 document.getElementById("btnQuotes").addEventListener("click", function() {
-    fetch("https://type.fit/api/quotes")
+    // fetch("https://type.fit/api/quotes")
+    fetch("https://inspo-quotes-api.herokuapp.com/quotes/random")
+        
     .then(response => response.json())
     .then(quotes => {
         // Get a random quote from the array
